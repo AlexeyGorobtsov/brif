@@ -1,13 +1,15 @@
 /*font-family: 'Open Sans', sans-serif;*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext');
+html, body {
+    font-family: 'Roboto', sans-serif !important;
 
-body{
-    background: #ececec;
-    font-family: 'Roboto', sans-serif;
+}
+/*body{
+    background: #ffff;
     font-size: 14px;
     color: #000;
     min-width: 320px;
-}
+}*/
 img{
     max-width: 100%;
     height: auto;
@@ -99,6 +101,8 @@ h3{
     line-height: 57px;
     position: relative;
     margin-top: -100px;
+    margin-right: -15px;
+
 }
 
 .indicators {
@@ -159,6 +163,39 @@ h3{
     padding: 0px 78px 0px 78px;
     text-decoration: none;
 }
+.point_1 {
+    height: 232px;
+    border: 1px solid #e4ebf2;
+    margin: 35px 0 0 0;
+}
+
+.point_1 h5 {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #3c434d;
+    padding: 5px 0 5px 0;
+}
+
+.introduce, .introduce_2 {
+    border-bottom: 1px solid #e4ebf2;
+    width: 100%;
+    background: #f3f8fd;
+}
+
+.point_2 {
+    height: 232px;
+    border: 1px solid #e4ebf2;
+    margin: 35px 0 0 0;
+}
+.point_2 h5 {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    color: #3c434d;
+    padding: 5px 0 5px 0;
+}
+
 
 /*=====================input=============================*/
 .box {
@@ -201,10 +238,15 @@ h3{
     margin-right: auto;
 }
 
+.brif .input {
+    margin-top: 35px;
+    height: 70px;
+}
+
 .input,
 .button {
-    margin-top: 30px;
-    height: 70px;
+    margin-top: 15px;
+    height: 65px;
 }
 
 .input,
@@ -219,14 +261,15 @@ h3{
     top: 10px;
     border: none;
     background: transparent;
+    color: #333333 !important;
+    font-weight: 500!important;
 }
-
+.introduce,
 .input input,
 .input label,
 .button button {
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    color: #b7bdc2;
     font-weight: 300;
 }
 
@@ -266,7 +309,7 @@ h3{
     left: 0;
     z-index: 2;
     cursor: pointer;
-    line-height: 60px;
+    line-height: 80px;
 }
 
 .materialContainer {
@@ -286,6 +329,8 @@ h3{
     list-style-type: none;
     outline: none;
 }
+
+/*================================================================================================*/
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
