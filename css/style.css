@@ -1,33 +1,38 @@
 /*font-family: 'Open Sans', sans-serif;*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext');
+
 html, body {
     font-family: 'Roboto', sans-serif !important;
 
 }
+
 /*body{
     background: #ffff;
     font-size: 14px;
     color: #000;
     min-width: 320px;
 }*/
-img{
+img {
     max-width: 100%;
     height: auto;
 }
-h3{
+
+h3 {
     font-size: 24px;
     font-weight: 700;
 }
-.btn-red{
+
+.btn-red {
     background: #d51e08;
     color: #fff;
 }
+
 .btn-red:hover {
     background: #ec4835;
 }
 
 /*=============================header=========================================*/
-.menu-top .navbar{
+.menu-top .navbar {
     margin-bottom: 0;
     background: #fff;
     padding: 15px 0;
@@ -41,7 +46,7 @@ h3{
     padding-top: 10px;
 }
 
-.menu-top .navbar-default .navbar-nav>li>a {
+.menu-top .navbar-default .navbar-nav > li > a {
     color: #1d5b97;
     font-size: 16px;
     padding-top: 15px;
@@ -54,7 +59,7 @@ h3{
 
 }
 
-.menu-top .navbar-default .navbar-nav > li > a.btn-red{
+.menu-top .navbar-default .navbar-nav > li > a.btn-red {
     background: #fbd302;
     border-radius: 3px;
     color: #333333;
@@ -87,7 +92,8 @@ h3{
     padding-top: 100px;
     margin: 0;
 }
-.bg_visual h1 span{
+
+.bg_visual h1 span {
     color: #fbd302;
 }
 
@@ -95,7 +101,8 @@ h3{
     font-size: 36px;
     font-weight: 400;
 }
-.switchers  {
+
+.switchers {
     background: #205b98;
     height: 100px;
     line-height: 57px;
@@ -127,7 +134,6 @@ h3{
     text-transform: none;
 }
 
-
 .indicators li span {
     font-size: 14px;
     color: #ffffff;
@@ -141,6 +147,7 @@ h3{
     width: 49%;
     margin-left: 19%;
 }
+
 .step_1 h4 {
     text-align: center;
     font-size: 30px;
@@ -148,7 +155,7 @@ h3{
     padding-top: 10px;
 }
 
-.step_1 h4 span{
+.step_1 h4 span {
     display: block;
     color: #333333;
 }
@@ -163,6 +170,7 @@ h3{
     padding: 0px 78px 0px 78px;
     text-decoration: none;
 }
+
 .point_1 {
     height: 232px;
     border: 1px solid #e4ebf2;
@@ -184,10 +192,11 @@ h3{
 }
 
 .point_2 {
-    height: 232px;
+    height: 265px;
     border: 1px solid #e4ebf2;
     margin: 35px 0 0 0;
 }
+
 .point_2 h5 {
     font-weight: 500;
     font-size: 24px;
@@ -196,7 +205,26 @@ h3{
     padding: 5px 0 5px 0;
 }
 
+.point_3 {
+    height: 171px;
+    border: 1px solid #e4ebf2;
+    margin: 53px 0 0 0;
+}
 
+.point_4 {
+    height: 153px;
+    border: 1px solid #e4ebf2;
+    margin: 39px 0 0 0;
+}
+
+.ac-custom.ac-radio.ac-fill ul {
+    padding: 25px 0 0 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+}
 /*=====================input=============================*/
 .box {
     position: relative;
@@ -262,8 +290,9 @@ h3{
     border: none;
     background: transparent;
     color: #333333 !important;
-    font-weight: 500!important;
+    font-weight: 400 !important;
 }
+
 .introduce,
 .input input,
 .input label,
@@ -330,36 +359,78 @@ h3{
     outline: none;
 }
 
+input::-webkit-calendar-picker-indicator {
+    padding: 10px;
+    opacity: 0;
+    background-color: #ffffff;
+    /*background: url(../img/arrow_normal.png);*/
+    border-radius: 50%;
+}
+
+/*========================radio==========================================*/
+
+.site_type {
+    list-style-position: inside;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-count: 2;
+    list-style-type: decimal;
+    margin-right: -122px;
+}
+
+.point_5 {
+    height: 214px;
+    border: 1px solid #e4ebf2;
+    margin: 35px 0 0 0;
+}
+
+.point_6 {
+    height: 153px;
+    border: 1px solid #e4ebf2;
+    margin: 39px 0 0 0;
+}
+
+.point_6 .ac-custom li {
+    margin: 0 265px 0 0;
+}
+
+
+
+
+
+
 /*================================================================================================*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
+@media only screen and (max-width: 1200px) {
     .menu-top .navbar-right {
         float: none !important;
     }
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-	
+@media only screen and (max-width: 992px) {
+
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
+@media only screen and (max-width: 768px) {
 
 }
-@media only screen and (max-width : 767px) {
-    .menu-top .navbar-default .navbar-nav>li>a:hover{
+
+@media only screen and (max-width: 767px) {
+    .menu-top .navbar-default .navbar-nav > li > a:hover {
         background: #eee;
     }
+
     .menu-top .container,
-    .menu-top .navbar-collapse{
+    .menu-top .navbar-collapse {
         padding-left: 15px;
     }
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
+@media only screen and (max-width: 480px) {
 
 }
 
