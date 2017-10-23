@@ -230,31 +230,57 @@
                         </div>
                     </div>
                 </div>
-                <div class="row point_2">
+                <div class="row point_7">
                     <div class="col-md-2"></div>
                     <div class="col-md-8 introduce_2">
                         <h5>Целевая аудитория (обобщенно):</h5>
                     </div>
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-6 target">
                             <form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
-                                <ul class="site_type">
-                                    <li><input id="cb6" name="cb6" type="checkbox"><label for="cb6">Индивидуальные потребители</label></li>
-                                    <li><input id="cb7" name="cb7" type="checkbox"><label for="cb7">Представители делового мира / компании</label></li>
-                                    <li><input id="cb8" name="cb8" type="checkbox"><label for="cb8">Торговые организации</label></li>
-                                    <li><input id="cb9" name="cb9" type="checkbox"><label for="cb9">Специалисты и профессионалы в определенных сферах деятельности</label></li>
-                                    <li><input id="cb10" name="cb9" type="checkbox"><label for="cb10">Рассказать подробнее…</label></li>
+                                <ul>
+                                    <li><input id="cb6" name="cb6" type="checkbox"><label for="cb6">Индивидуальные потребители</label><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Самый большой вид целевой аудитории. Это практически все население страны. Они покупают товары и услуги для себя , членов их семей, для дома, сада, для детей, любимых питомцев, друзей и т.п."></button></li>
+                                    <li><input id="cb8" name="cb8" type="checkbox"><label class="cb8" for="cb8">Торговые организации</label><button type="button" class="btn btn-default commercial" data-toggle="tooltip" data-placement="right" title="Организации и индивидуальные предприниматели, занимающиеся торговлей."></button></li>
+                                    <li><input id="cb10" name="cb9" type="checkbox"  onclick="showMe(this)" ><label for="cb10">Рассказать подробнее...</label><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Расскажите подробно о вашей целевой&nbsp;&nbsp;&nbsp;  аудитории"></button></li>
+                                </ul>
+                            </form>
+                            <div class="input" id="more">
+                                <label for="more_info">Опишите Вашу целевую аудиторию</label>
+                                <input type="text" name="name" id="more_info">
+                                <span class="spin"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 target_2">
+                            <form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
+                                <ul>
+                                    <li><input id="cb7" name="cb7" type="checkbox"><label for="cb7">Представители делового мира / компании</label><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Директора коммерческих и некоммерческих организаций, индивидуальные предприниматели, фермеры и т.п."></button></li>
+                                    <li><input id="cb9" name="cb9" type="checkbox"><label for="cb9">Специалисты и профессионалы <span>в определенных сферах деятельности</span></label><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Это  врачи, учителя, бухгалтера, юристы, аудиторы, нотариусы, преподаватели вузов, дизайнеры, фрилансеры, водители, рабочие разных специальностей и т.п."></button></li>
                                 </ul>
                             </form>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
 </section>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+                <div class="copy">© Web-студия Domonap, 2017.</div>
+            </div>
+            <div class="col-md-3">
+                <div class="footer_soc">
 
+                    <a href="https://www.facebook.com/ООО-Домонап-1641789025884617/" target="_blank" class="soc facebook"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://vk.com/domonap" target="_blank" class="soc vk"></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

@@ -7,7 +7,7 @@
 }
 
 .ac-custom {
-	padding: 0 3em;
+	padding: 0 0 0 20px;
 	/*max-width: 900px;
 	margin: 0 auto;*/
 }
@@ -28,9 +28,12 @@
 }
 
 .ac-custom li {
-	margin: 0 125px 0 0;
+	margin: 0;
 	padding: 10px 0;
 	position: relative;
+}
+.task. li {
+	margin: 0 156px 0 0;
 }
 
 .ac-custom label {
@@ -69,7 +72,7 @@
 
 .ac-custom label::before {
 	content: '';
-	border: 2px solid #b8bec3;
+	border: 1.8px solid #b8bec3;
 	-webkit-transition: opacity 0.3s;
 	transition: opacity 0.3s;
 }
