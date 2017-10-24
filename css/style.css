@@ -513,6 +513,12 @@ ul li span {
     display: none;
 }
 
+#more_5 {
+    margin: -20px 0 15px 25px;
+    min-width: 96%;
+    display: none;
+}
+
 .task .ac-custom .cb11 {
     margin-top: 12px;
 }
