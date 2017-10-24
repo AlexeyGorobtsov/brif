@@ -3,7 +3,6 @@
 
 html, body {
     font-family: 'Roboto', sans-serif !important;
-
 }
 
 /*body{
@@ -12,6 +11,7 @@ html, body {
     color: #000;
     min-width: 320px;
 }*/
+
 img {
     max-width: 100%;
     height: auto;
@@ -33,8 +33,8 @@ h3 {
 
 /*=============================header=========================================*/
 .menu-top .navbar {
-    margin-bottom: 0;
     background: #fff;
+    margin-bottom: 0;
     padding: 15px 0;
 }
 
@@ -55,9 +55,8 @@ h3 {
 
 }
 
-.menu-top .navbar-default .navbar-nav > li > a:hover {
-
-}
+/*.menu-top .navbar-default .navbar-nav > li > a:hover {
+}*/
 
 .menu-top .navbar-default .navbar-nav > li > a.btn-red {
     background: #fbd302;
@@ -78,10 +77,8 @@ h3 {
     background-image: url(../img/Illustration.png);
     font-size: 20px;
     left: 0;
-    /*line-height: 100px;*/
     min-height: 760px;
     top: 0;
-    /*background-repeat: no-repeat;*/
     text-align: center;
     text-transform: uppercase;
 }
@@ -89,8 +86,8 @@ h3 {
 .bg_visual h1 {
     font-weight: 700;
     font-size: 72px;
-    padding-top: 100px;
     margin: 0;
+    padding-top: 100px;
 }
 
 .bg_visual h1 span {
@@ -106,15 +103,15 @@ h3 {
     background: #205b98;
     height: 100px;
     line-height: 57px;
-    position: relative;
-    margin-top: -100px;
     margin-right: -15px;
+    margin-top: -100px;
+    position: relative;
 
 }
 
 .indicators {
-    display: flex;
     bottom: 50px;
+    display: flex;
     left: 17%;
     list-style: none;
     justify-content: space-around;
@@ -124,40 +121,40 @@ h3 {
 
 .indicators li {
     display: inline-block;
-    width: 10px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    cursor: pointer;
     height: 10px;
     text-indent: -17px;
-    cursor: pointer;
-    background-color: #fff;
-    border: 1px solid #fff;
-    border-radius: 10px;
     text-transform: none;
+    width: 10px;
 }
 
 .indicators li span {
     font-size: 14px;
     color: #ffffff;
-    position: absolute;
     margin-left: 21px;
+    position: absolute;
 }
 
 .hr {
     border-bottom: 2px solid #fff;
+    margin-left: 19%;
     padding-bottom: 34px;
     width: 49%;
-    margin-left: 19%;
 }
 
 .step_1 h4 {
-    text-align: center;
-    font-size: 30px;
     color: #205b98;
+    font-size: 30px;
+    text-align: center;
     padding-top: 10px;
 }
 
 .step_1 h4 span {
-    display: block;
     color: #333333;
+    display: block;
 }
 
 .switchers .btn-red {
@@ -172,36 +169,36 @@ h3 {
 }
 
 .point_1 {
-    height: 232px;
     border: 1px solid #e4ebf2;
+    height: 232px;
     margin: 35px 0 0 0;
 }
 
 .point_1 h5 {
+    color: #3c434d;
     font-weight: 500;
     font-size: 24px;
     text-align: center;
-    color: #3c434d;
     padding: 5px 0 5px 0;
 }
 
 .introduce, .introduce_2 {
     border-bottom: 1px solid #e4ebf2;
-    width: 100%;
     background: #f3f8fd;
+    width: 100%;
 }
 
 .point_2 {
-    height: 265px;
     border: 1px solid #e4ebf2;
+    height: auto;
     margin: 35px 0 0 0;
 }
 
-.point_2, .point_7 h5 {
+ h5 {
+    color: #3c434d;
     font-weight: 500;
     font-size: 24px;
-    /*text-align: center;*/
-    color: #3c434d;
+    text-align: center;
     padding: 5px 0 5px 0;
 }
 
@@ -212,8 +209,8 @@ h3 {
 }
 
 .point_4 {
-    height: 153px;
     border: 1px solid #e4ebf2;
+    height: 153px;
     margin: 39px 0 0 0;
 }
 
@@ -227,20 +224,17 @@ h3 {
     justify-content: space-between;
 }
 
-
-
-
 /*=====================input=============================*/
 .box {
+    border-radius: 10px;
+    float: left;
+    opacity: 1;
+    padding: 60px 50px 40px 50px;
     position: relative;
     top: 0;
-    opacity: 1;
-    float: left;
-    padding: 60px 50px 40px 50px;
+    transform: scale(1);
     width: 100%;
     /*background: #fff;*/
-    border-radius: 10px;
-    transform: scale(1);
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     z-index: 5;
@@ -266,9 +260,9 @@ h3 {
 .input .spin,
 .button,
 .button button {
-    width: 460px;
     margin-left: auto;
     margin-right: auto;
+    width: 460px;
 }
 
 .brif .input {
@@ -290,43 +284,43 @@ h3 {
 }
 
 .input input {
-    height: 60px;
-    top: 10px;
-    border: none;
     background: transparent;
+    border: none;
     color: #333333 !important;
     font-weight: 400 !important;
+    height: 60px;
+    top: 10px;
 }
 
 .introduce,
 .input input,
 .input label,
 .button button {
-    font-size: 16px;
     color: #b7bdc2;
+    font-size: 16px;
     font-weight: 300;
 }
 
 .input:before,
 .input .spin {
-    width: 100%;
-    height: 1px;
-    position: absolute;
     bottom: 0;
     left: 0;
+    height: 1px;
+    position: absolute;
+    width: 100%;
 }
 
 .input:before {
-    content: "";
     background: rgba(0, 0, 0, 0.1);
+    content: "";
     z-index: 3;
 }
 
 .input .spin {
     background: #fbd302;
-    z-index: 4;
-    width: 0;
     height: 2px;
+    width: 0;
+    z-index: 4;
 }
 
 .overbox .input .spin {
@@ -338,38 +332,42 @@ h3 {
 }
 
 .input label {
-    position: absolute;
-    top: 10px;
-    left: 0;
-    z-index: 2;
     cursor: pointer;
     line-height: 80px;
+    left: 0;
+    position: absolute;
+    top: 10px;
 }
 
 .materialContainer {
-    width: 100%;
     max-width: 460px;
+    width: 100%;
 }
 
 *,
-*:after,
+*::after,
 *::before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
+    list-style-type: none;
     margin: 0;
+    outline: none;
     padding: 0;
     text-decoration: none;
-    list-style-type: none;
-    outline: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 input::-webkit-calendar-picker-indicator {
-    padding: 10px;
     opacity: 0;
-    background-color: #ffffff;
-    /*background: url(../img/arrow_normal.png);*/
-    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+   /* background-color: red;*/
+}
+
+.arrow-down {
+    float: right;
+    right: 4px;
+    top: 40px;
 }
 
 /*========================radio==========================================*/
@@ -379,20 +377,25 @@ input::-webkit-calendar-picker-indicator {
     -moz-column-count: 2;
     -webkit-column-count: 2;
     column-count: 2;
-    list-style-type: decimal;
     margin-right: -122px;
+    list-style-type: decimal;
+}
+
+.hidden-cmp {
+    opacity: 0;
+    pointer-events: none;
 }
 
 .point_5 {
-    height: 214px;
     border: 1px solid #e4ebf2;
+    height: 214px;
     margin: 35px 0 0 0;
 
 }
 
 .point_6 {
-    height: 153px;
     border: 1px solid #e4ebf2;
+    height: 153px;
     margin: 39px 0 0 0;
 }
 
@@ -404,7 +407,6 @@ input::-webkit-calendar-picker-indicator {
     margin: 0 155px 0 0;
 }
 
-
 ul li span {
     display: block;
 }
@@ -412,6 +414,7 @@ ul li span {
 .target {
     padding-top: 25px;
 }
+
 .target .ac-custom li {
     margin: 0;
 }
@@ -442,13 +445,13 @@ ul li span {
 }
 
 .point_7 .tooltip-inner {
-    min-width: 250px;
-    padding: 4px 8px;
-    color: #3c434d;
-    text-align: left;
     background-color: #f7fafc;
     border-radius: 4px;
     border: 1px solid #e4ebf2;
+    color: #3c434d;
+    min-width: 250px;
+    padding: 4px 8px;
+    text-align: left;
     /*margin: 40px 0 0 0;*/
 }
 
@@ -460,16 +463,22 @@ ul li span {
     margin-top: 8px;
 }
 
-#more {
+#more{
     margin: -20px 0 15px 25px;
     min-width: 197%;
     display: none;
 }
+ #more_2{
+    margin: -20px 0 15px 25px;
+    min-width: 96%;
+    display: none;
+}
 
 footer {
-    height: 58px;
-    padding-top: 20px;
     margin-bottom: 40px;
+    height: 88px;
+    padding-top: 20px;
+    background: #f3f8fd;
 }
 
 footer .footer_soc {
@@ -477,23 +486,23 @@ footer .footer_soc {
 }
 
 .c_line {
-    height: 1px;
     border-top: 1px #fff solid;
+    height: 1px;
 }
 
 .copy {
-    padding-top: 15px;
-    font-size: 16px;
     color: #333333;
     font-weight: 700;
+    font-size: 16px;
+    padding-top: 15px;
 }
+
 .soc {
     display: inline-block;
-    width: 48px;
     height: 48px;
-
-
+    width: 48px;
 }
+
 .soc.facebook {
     background: url("../img/soc_face.png") left top no-repeat;
 }
@@ -516,8 +525,6 @@ footer .footer_soc {
     font-size: 24px;
     text-align: center;
 }
-
-
 
 /*================================================================================================*/
 
