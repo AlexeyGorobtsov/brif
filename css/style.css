@@ -60,7 +60,6 @@ h3 {
 
 .menu-top .navbar-default .navbar-nav > li > a.btn-red {
     background: #fbd302;
-    border-radius: 3px;
     color: #333333;
     font-size: 16px;
     padding: 15px 35px;
@@ -140,12 +139,12 @@ h3 {
 
 .hr {
     border-bottom: 2px solid #fff;
-    margin-left: 19%;
+    margin-left: 17%;
     padding-bottom: 34px;
     width: 49%;
 }
 
-.step_1, .step_2 h4 {
+.step_1 h4 {
     color: #205b98;
     font-size: 30px;
     text-align: center;
@@ -170,19 +169,18 @@ h3 {
 }
 
 .switchers .btn-red {
-    border-radius: 4px;
     background-color: #fbd302;
     color: #333333;
     float: right;
     font-size: 18px;
-    margin: -13px 350px 0px 0px;
+    margin: -1% 13% 0 0;
     padding: 0px 78px 0px 78px;
     text-decoration: none;
 }
 
 .point_1 {
     border: 1px solid #e4ebf2;
-    height: 232px;
+    /*height: 232px;*/
     margin: 35px 0 0 0;
 }
 
@@ -197,6 +195,7 @@ h3 {
 .introduce, .introduce_2 {
     border-bottom: 1px solid #e4ebf2;
     background: #f3f8fd;
+    margin-bottom: 20px;
     width: 100%;
 }
 
@@ -231,16 +230,12 @@ h5 {
     width: 100%;
 }
 
-/*.task {
-    list-style-position: inside;
-    -moz-column-count: 2;
-    -webkit-column-count: 2;
-    column-count: 2;
-    margin-right: -122px;
-    list-style-type: decimal;
-}*/
 
 /*=====================input=============================*/
+input::-ms-clear {
+    display: none;
+}
+
 .box {
     border-radius: 10px;
     float: left;
@@ -405,7 +400,7 @@ input::-webkit-calendar-picker-indicator {
 
 .point_5 {
     border: 1px solid #e4ebf2;
-    height: 214px;
+    /*height: 214px;*/
     margin: 35px 0 0 0;
 
 }
@@ -428,16 +423,16 @@ ul li span {
     display: block;
 }
 
-.target {
-    padding-top: 25px;
+.target_2 {
+    /*margin-left: -20px;*/
 }
 
 .target .ac-custom li {
     margin: 0;
 }
 
-.target_2 {
-    padding: 24px 0 0 0px;
+.target_2 .ac-custom{
+    margin-left: -20px;
 }
 
 /*.target .ac-custom .cb8 {
@@ -462,7 +457,7 @@ ul li span {
     padding: 0 0 0 20px;
 }
 
-.point_8 .ac-custom{
+.point_8 .ac-custom {
     padding-top: 12px;
 }
 
@@ -475,10 +470,10 @@ ul li span {
     border-radius: 4px;
     border: 1px solid #e4ebf2;
     color: #3c434d;
-    min-width: 250px;
+    max-width: 210px;
     padding: 4px 8px;
     text-align: left;
-    /*margin: 40px 0 0 0;*/
+    margin: 0 0 0 0;
 }
 
 .point_7 .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
@@ -489,46 +484,17 @@ ul li span {
     margin-top: 8px;
 }
 
-#more {
+#more,
+#more_2,
+#more_3,
+#more_4,
+#more_5,
+#more_6,
+#more_7,
+#more_8 {
     margin: -20px 0 15px 25px;
     min-width: 96%;
     display: none;
-}
-
-#more_2 {
-    margin: -20px 0 15px 25px;
-    min-width: 96%;
-    display: none;
-}
-
-#more_3 {
-    display: none;
-    margin: -20px 0 15px 25px;
-    min-width: 96%;
-}
-
-#more_4 {
-    margin: -20px 0 15px 25px;
-    min-width: 96%;
-    display: none;
-}
-
-#more_5 {
-    margin: -20px 0 15px 25px;
-    min-width: 96%;
-    display: none;
-}
-
-.task .ac-custom .cb11 {
-    margin-top: 12px;
-}
-
-.task .ac-custom .cb15 {
-    margin-top: -25px;
-}
-
-.task .ac-custom .cb14 {
-    margin-top: -15px;
 }
 
 footer {
@@ -594,7 +560,103 @@ footer .footer_soc {
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+    .menu-top .navbar {
+        padding: 5px 0;
+    }
+    .logo {
+        padding-top: 2%;
+        height: auto;
+        max-width: 15%;
+    }
+    .menu-top .navbar-default .navbar-nav > li > a {
+        font-size: 14px;
+        padding: 17px 0 0 0;
+    }
+    .menu-top .navbar-default .navbar-nav > li > a.btn-red {
+        font-size: 14px;
+        padding: 10px 14px;
+        margin: 6px 17px 7px 5px;
+    }
+    .logo {
+         padding-bottom: 0;
+    }
+    .bg_visual h1 {
 
+        font-size: 56px;
+        padding-top: 56px;
+    }
+
+    .bg_visual h3 {
+        font-size: 30px;
+    }
+
+    .bg_visual {
+        background-image: url(../img/Illustration_Tab.png);
+        min-height: 580px;
+
+    }
+    .switchers .btn-red {
+        font-size: 16px;
+        margin: -1% 4% 0 0;
+        padding: 0 34px 0 35px;
+    }
+
+    .switchers {
+        line-height: 52px;
+    }
+
+    .indicators {
+        left: 3%;
+        width: 71%;
+    }
+
+    .hr {
+        margin-left: 4%;
+        width: 71%;
+    }
+    .step_1 h4 {
+        font-size: 24px;
+
+    }
+
+    .brif .input {
+        margin-top: 0;
+        height: 70px;
+    }
+
+    .point_1 h5 {
+        font-size: 18px;
+
+    }
+
+    .input, .input label, .input input, .input .spin, .button, .button button {
+        width: 97%;
+    }
+    .point_3 {
+         height: auto;
+         margin: 0 0 0 0;
+    }
+
+    .point_4 {
+        height: auto;
+
+    }
+
+    .site_type {
+        list-style-position: inside;
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+        margin-right: -122px;
+        list-style-type: decimal;
+        width: 100%;
+    }
+    .target {
+        margin-left: -20px;
+    }
+    .auditory{
+        padding: 0 0 0 20px;
+    }
 }
 
 /* Small Devices, Tablets */

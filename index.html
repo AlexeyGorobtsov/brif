@@ -192,6 +192,7 @@
                                     <li><input id="r9" name="r3" type="radio"><label for="r9">Срочно</label></li>
                                     <li><input id="r10" name="r3" type="radio"><label for="r10">1 -3 месяца</label></li>
                                     <li><input id="r11" name="r3" type="radio"><label for="r11">Более трех месяцев</label></li>
+                                    <li class="hidden-cmp"><input name="r3" type="radio"><label >Более трех месяцев</label></li>
                                 </ul>
                             </form>
                         </div>
@@ -231,28 +232,34 @@
                         </div>
                     </div>
                 </div>
-                <div class="row point_7">
+                <div class="row point_7 auditory">
                     <div class="col-md-2"></div>
                     <div class="col-md-8 introduce_2">
                         <h5>Целевая аудитория (обобщенно):</h5>
                     </div>
                     <div class="row">
-                        <div class="col-md-12 target">
+
+                        <div class="col-md-6 col-md-push-6 target_2">
                             <form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
-                                <ul class="site_type">
+                                <ul class="">
                                     <li><input id="cb6" name="cb6" type="checkbox"><label for="cb6">Индивидуальные потребители</label><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Самый большой вид целевой аудитории. Это практически все население страны. Они покупают товары и услуги для себя , членов их семей, для дома, сада, для детей, любимых питомцев, друзей и т.п."></button></li>
-                                    <li><input id="cb8" name="cb8" type="checkbox"><label class="cb8" for="cb8">Торговые организации</label><button type="button" class="btn btn-default commercial" data-toggle="tooltip" data-placement="right" title="Организации и индивидуальные предприниматели, занимающиеся торговлей."></button></li>
-                                    <li><input id="cb10" name="cb9" type="checkbox"  onclick="showMe(this)" ><label for="cb10">Рассказать подробнее...</label><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Расскажите подробно о вашей целевой  аудитории"></button></li>
-                                    <li><input id="cb7" name="cb7" type="checkbox"><label for="cb7">Представители делового мира / компании</label><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Директора коммерческих и некоммерческих организаций, индивидуальные предприниматели, фермеры и т.п."></button></li>
-                                    <li><input id="cb9" name="cb9" type="checkbox"><label for="cb9">Специалисты и профессионалы <span>в определенных сферах деятельности</span></label><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="bottom" title="Это  врачи, учителя, бухгалтера, юристы, аудиторы, нотариусы, преподаватели вузов, дизайнеры, фрилансеры, водители, рабочие разных специальностей и т.п."></button></li>
+                                    <li><input id="cb9" name="cb9" type="checkbox"><label for="cb9">Специалисты и профессионалы <span>в определенных сферах деятельности</span></label><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Это  врачи, учителя, бухгалтера, юристы, аудиторы, нотариусы, преподаватели вузов, дизайнеры, фрилансеры, водители, рабочие разных специальностей и т.п."></button></li>
                                 </ul>
                             </form>
-                                <div class="input" id="more">
-                                    <label for="more_info">Опишите Вашу целевую аудиторию</label>
-                                    <input type="text" name="name" id="more_info">
-                                    <span class="spin"></span>
-                                </div>
-
+                        </div>
+                        <div class="col-md-6 col-md-pull-6 target">
+                            <form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
+                                <ul class="">
+                                    <li><input id="cb8" name="cb8" type="checkbox"><label  for="cb8">Торговые организации</label><button type="button" class="btn btn-default commercial" data-toggle="tooltip" data-placement="right" title="Организации и индивидуальные предприниматели, занимающиеся торговлей."></button></li>
+                                    <li><input id="cb7" name="cb7" type="checkbox"><label for="cb7">Представители делового <span>мира / компании</span></label><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Директора коммерческих и некоммерческих организаций, индивидуальные предприниматели, фермеры и т.п."></button></li>
+                                    <li><input id="cb10" name="cb9" type="checkbox" onclick="showMe(this)"><label for="cb10">Рассказать подробнее...</label><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Расскажите подробно о вашей целевой  аудитории"></button></li>
+                                </ul>
+                            </form>
+                            <div class="input" id="more">
+                                <label for="more_info">Опишите Вашу целевую аудиторию</label>
+                                <input type="text" name="name" id="more_info">
+                                <span class="spin"></span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -293,14 +300,12 @@
                     <h5>Общая характеристика стиля сайта:</h5>
                 </div>
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-6">
                         <form class="ac-custom ac-radio ac-fill" autocomplete="off">
-                            <ul class="site_type get-site-type">
+                            <ul class=" get-site-type">
                                 <li><input id="r21" name="r2" type="radio"><label for="r21">Строгий корпоративный дизайн</label></li>
                                 <li><input id="r22" name="r2" type="radio"><label for="r22">Яркий,броский дизайн</label></li>
                                 <li><input class="get-site-type-other" id="r25" name="r2" type="radio"><label for="r25">Другое…</label></li>
-                                <li><input id="r23" name="r2" type="radio"><label for="r23">Минималистичный дизайн с уделением особого <span>внимания функциональности</span></label></li>
-                                <li><input id="r24" name="r2" type="radio"><label for="r24">Насыщенный фотографиями и иллюстрациями <span>мультемедийный сайт</span></label></li>
                             </ul>
                         </form>
                         <div class="input" id="more_2">
@@ -308,6 +313,14 @@
                             <input type="text" name="name" id="different">
                             <span class="spin"></span>
                         </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form class="ac-custom ac-radio ac-fill" autocomplete="off">
+                            <ul class="get-site-type">
+                                <li><input id="r23" name="r2" type="radio"><label for="r23">Минималистичный дизайн с уделением особого <span>внимания функциональности</span></label></li>
+                                <li><input id="r24" name="r2" type="radio"><label for="r24">Насыщенный фотографиями и иллюстрациями <span>мультемедийный сайт</span></label></li>
+                            </ul>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -338,12 +351,12 @@
                     <div class="col-md-12 task">
                         <form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
                             <ul class="site_type">
-                                <li class="cb11"><input id="cb11" name="cb6" type="checkbox" ><label for="cb11">Доменное имя</label></li>
-                                <li><input id="cb12" name="cb12" type="checkbox"><label class="cb12" for="cb12">Бренд-бук компании</label></li>
-                                <li><input id="cb13" name="cb13" type="checkbox"><label for="cb13">Логотип</label></li>
-                                <li><input id="cb16" name="cb16" type="checkbox"><label for="cb16">Иллюстрации и медиаматериалы для <span>использования в дизайне</span></label></li>
-                                <li class="cb15"><input id="cb15" name="cb12" type="checkbox"><label  for="cb15">Информационные материалы (тексты о <span>компании, товарах, услугах и т.д.)</span></label></li>
-                                <li class="cb14"><input id="cb14" name="cb14" type="checkbox"><label for="cb14">Фотографии (работы, продукция и т.д.)</label></li>
+                                <li><input id="cb11" name="cb11" type="checkbox" ><label for="cb11">Доменное имя</label></li>
+                                <li><input id="cb12" name="cb11" type="checkbox"><label class="cb12" for="cb12">Бренд-бук компании</label></li>
+                                <li><input id="cb16" name="cb11" type="checkbox"><label for="cb16">Иллюстрации и медиаматериалы для <span>использования в дизайне</span></label></li>
+                                <li><input id="cb13" name="cb11" type="checkbox"><label for="cb13">Логотип</label></li>
+                                <li><input id="cb14" name="cb11" type="checkbox"><label for="cb14">Фотографии (работы, продукция и т.д.)</label></li>
+                                <li><input id="cb15" name="cb11" type="checkbox"><label  for="cb15">Информационные материалы (тексты о <span>компании, товарах, услугах и т.д.)</span></label></li>
                             </ul>
                         </form>
                     </div>
@@ -443,7 +456,7 @@
                         <form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
                             <ul class="site_type">
                                 <li><input id="cb28" name="cb6" type="checkbox" ><label for="cb28">Используем конент из безплатных фотобанков</label></li>
-                                <li><input id="cb29" name="cb18" type="checkbox"><label class="cb29" for="cb26">Используем конент из платных фотобанков</label></li>
+                                <li><input id="cb29" name="cb18" type="checkbox"><label class="cb29" for="cb29">Используем конент из платных фотобанков</label></li>
                                 <li><input id="cb30" name="cb19" type="checkbox"><label for="cb30">Проведение фотосессии</label></li>
                                 <li><input id="cb31" name="cb19" type="checkbox"><label for="cb31">Создание уникальных, дизайнерских материалов</label></li>
                             </ul>
@@ -474,7 +487,7 @@
                                 <li><input id="r35" name="r3" type="radio"><label for="r35">Реальные  товары</label></li>
                                 <li><input id="r36" name="r3" type="radio"><label for="r36">Цифровые товары</label></li>
                                 <li><input id="r37" name="r3" type="radio"><label for="r37">Офлайн услуги</label></li>
-                                <li><input id="38" name="r3" type="radio"><label for="38">Онлайн услуги</label></li>
+                                <li><input id="r38" name="r3" type="radio"><label for="r38">Онлайн услуги</label></li>
                             </ul>
                         </form>
                     </div>
@@ -620,14 +633,12 @@
                     <h5>Способы оплаты товаров/услуг:</h5>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 task">
+                    <div class="col-md-6 task">
                         <form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
-                            <ul class="site_type">
+                            <ul>
                                 <li><input id="cb32" name="cb6" type="checkbox" ><label for="cb32">Безналичный расчёт - выписка счёта юр. лицу он-лайн</label></li>
-                                <li><input id="cb33" name="cb18" type="checkbox"><label class="cb33" for="cb34">Наличный расчёт — оплата курьеру при получении товара</label></li>
+                                <li><input id="cb33" name="cb18" type="checkbox"><label class="cb33" for="cb33">Наличный расчёт — оплата курьеру при получении товара</label></li>
                                 <li><input id="cb36" name="cb19" type="checkbox" onclick="showMe_3(this)"><label for="cb36">Другое</label></li>
-                                <li><input id="cb34" name="cb19" type="checkbox"><label for="cb34">Предоплата кредитными картами</label></li>
-                                <li><input id="cb35" name="cb19" type="checkbox"><label for="cb35">Предоплата электронными деньгами — WebMoney, QiWi, другие</label></li>
                             </ul>
                         </form>
                         <div class="input" id="more_5">
@@ -635,6 +646,14 @@
                             <input type="text" name="name" id="more_info_5">
                             <span class="spin"></span>
                         </div>
+                    </div>
+                    <div class="col-md-6 target_2">
+                        <form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
+                            <ul>
+                                <li><input id="cb34" name="cb19" type="checkbox"><label for="cb34">Предоплата кредитными картами</label></li>
+                                <li><input id="cb35" name="cb19" type="checkbox"><label for="cb35">Предоплата электронными деньгами — WebMoney, QiWi, другие</label></li>
+                            </ul>
+                        </form>
                     </div>
                 </div>
                 <div class="row point_5">
@@ -653,6 +672,407 @@
                                 </ul>
                             </form>
                         </div>
+                    </div>
+                </div>
+                <div class="row point_6">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 introduce_2">
+                        <h5>Как осуществляется приём заказов менеджером Интернет-магазина</h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form class="ac-custom ac-radio ac-fill" autocomplete="off">
+                                <ul class="site_type get-site-type_3">
+                                    <li><input id="r65" name="r5" type="radio"><label for="r65">заказы поступают на E-mail менеджера, и вся дальнейшая обработка заказов ведётся в офф-лайне</label></li>
+                                    <li><input class="get-site-type_three" id="r66" name="r5" type="radio" ><label for="r66">Хотим реализовать по другому….</label></li>
+                                    <li><input id="r67" name="r5" type="radio"><label for="r67">на E-mail менеджера поступает уведомление, а обработка заказов ведётся на сайте</label></li>
+                                    <li class="hidden-cmp"><input  name="r5" type="radio"><label for="">Свой вариант...</label></li>
+                                </ul>
+                            </form>
+                            <div class="input" id="more_6">
+                                <label for="other">Опишите своей вариант</label>
+                                <input type="text" name="name" id="other_6">
+                                <span class="spin"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row point_6">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 introduce_2">
+                        <h5>Как вы планируете вести учет товара</h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form class="ac-custom ac-radio ac-fill" autocomplete="off">
+                                <ul class="site_type get-site-type_4">
+                                    <li><input id="r68" name="r5" type="radio"><label for="r68">Учет будет вестись онлайн непосредственно через админку интернет-магазин</label></li>
+                                    <li><input class="get-site-type_four" id="r69" name="r5" type="radio" ><label for="r69">Указать свой вариант…</label></li>
+                                    <li><input id="r70" name="r5" type="radio"><label for="r70">Учет товара будет вестись в электронной системе управления складом, в которой предусмотрена синхронизация с интернет-магазином. (1С, ТоргСофт, Мой Склад, другая WMS-система).</label></li>
+                                    <li class="hidden-cmp"><input  name="r5" type="radio"><label for="">Свой вариант...</label></li>
+                                </ul>
+                            </form>
+                            <div class="input" id="more_7">
+                                <label for="other">Опишите своей вариант</label>
+                                <input type="text" name="name" id="other_7">
+                                <span class="spin"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row point_5">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 introduce_2">
+                        <h5>Ожидаемое количество посещений  в сутки</h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form class="ac-custom ac-radio ac-fill" autocomplete="off">
+                                <ul class="site_type">
+                                    <li><input id="r71" name="r3" type="radio"><label for="r71">от 50 до 100 человек</label></li>
+                                    <li><input id="r72" name="r3" type="radio"><label for="r72">от 100 до 300 человек</label></li>
+                                    <li><input id="r73" name="r3" type="radio"><label for="r73">от 300 человек</label></li>
+                                    <li><input id="r74"name="r3" type="radio"><label for="r74">больше 1000 человек</label></li>
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="online_store">
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <div class="step_2">
+                    <h4>Шаг 4. <span> Создание сайта</span></h4>
+                </div>
+            </div>
+            <div class="row point_5">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 introduce_2">
+                    <h5>Какую цель у Вашего сайта?</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form class="ac-custom ac-radio ac-fill" autocomplete="off">
+                            <ul class="site_type">
+                                <li><input id="r75" name="r3" type="radio"><label for="r75">Сформировать имидж</label></li>
+                                <li><input id="r76" name="r3" type="radio"><label for="r76">Донести информацию</label></li>
+                                <li><input id="r77" name="r3" type="radio"><label for="r77">Получить информаци</label></li>
+                                <li><input id="r78" name="r3" type="radio"><label for="r78">Продать товар / услугу</label></li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row point_6">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 introduce_2">
+                    <h5>Предпочитаемая система управления контентом (CMS) ?</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form class="ac-custom ac-radio ac-fill" autocomplete="off">
+                            <ul class="site_type get-site-type_5">
+                                <li><input id="r79" name="r5" type="radio"><label for="r79">1С Битрикс</label></li>
+                                <li><input id="r81" name="r5" type="radio"><label for="r81">Joomla</label></li>
+                                <li><input id="r82" name="r5" type="radio"><label for="r82">Drupal</label></li>
+                                <li><input class="get-site-type_five" id="r80" name="r5" type="radio" ><label for="r80">Свой вариант…</label></li>
+                                <li><input id="r83" name="r5" type="radio"><label for="r83">MODX</label></li>
+                                <li><input id="r84" name="r5" type="radio"><label for="r84">Нужна помощь с выбором</label></li>
+                                <li><input id="r85" name="r5" type="radio"><label for="r85">WordPress</label></li>
+                                <li class="hidden-cmp" <input name="r5" type="radio"><label for="r85">WordPress</label></li>
+                            </ul>
+                        </form>
+                        <div class="input" id="more_8">
+                            <label for="other">Опишите своей вариант</label>
+                            <input type="text" name="name" id="other_8">
+                            <span class="spin"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row point_5">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 introduce_2">
+                    <h5>Необходимое количество страниц:</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form class="ac-custom ac-radio ac-fill" autocomplete="off">
+                            <ul class="site_type">
+                                <li><input id="r86" name="r3" type="radio"><label for="r86">Одна long-scroll</label></li>
+                                <li><input id="r87" name="r3" type="radio"><label for="r87">От 1 до 5</label></li>
+                                <li><input id="r88" name="r3" type="radio"><label for="r88">От 5 до 10</label></li>
+                                <li><input id="r89" name="r3" type="radio"><label for="r89">От 10 до 20</label></li>
+                                <li><input id="r90" name="r3" type="radio"><label for="r90">Более 20</label></li>
+                                <li class="hidden-cmp"><input name="r3" type="radio"><label for="">Более 30</label></li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row point_8">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 introduce_2">
+                    <h5>Разделы на сайте, модули:</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 task">
+                        <form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
+                            <ul class="site_type">
+                                <li><input id="cb37" name="cb6" type="checkbox" ><label for="cb37">Главная страница</label></li>
+                                <li><input id="cb38" name="cb18" type="checkbox"><label class="cb38" for="cb38">О нас</label></li>
+                                <li><input id="cb39" name="cb19" type="checkbox"><label for="cb39">Контакты/обратная связь</label></li>
+                                <li><input id="cb40" name="cb19" type="checkbox"><label for="cb40">Страница продукта (товары)</label></li>
+                                <li><input id="cb41" name="cb19" type="checkbox"><label for="cb41">Тарифы / Расценки</label></li>
+                                <li><input id="cb42" name="cb19" type="checkbox"><label for="cb42">Ответы на часто задаваемые вопросы</label></li>
+                                <li><input id="cb43" name="cb19" type="checkbox"><label for="cb43">Календарь событий</label></li>
+                                <li><input id="cb44" name="cb19" type="checkbox"><label for="cb44">Опросы</label></li>
+                                <li><input id="cb45" name="cb19" type="checkbox"><label for="cb45">Магазин</label></li>
+                                <li class="hidden-cmp"><input  name="cb19" type="checkbox"><label for="cb45">Магазин</label></li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row point_5">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 introduce_2">
+                    <h5> Регистрация пользователей на сайте</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form class="ac-custom ac-radio ac-fill" autocomplete="off">
+                            <ul class="site_type">
+                                <li><input id="r91" name="r3" type="radio"><label for="r91">Нужна</label></li>
+                                <li><input id="r92" name="r3" type="radio"><label for="r92">Нет</label></li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row point_5">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 introduce_2">
+                    <h5>Ожидаемое количество посещений  в сутки</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form class="ac-custom ac-radio ac-fill" autocomplete="off">
+                            <ul class="site_type">
+                                <li><input id="r93" name="r3" type="radio"><label for="r93">от 50 до 100 человек</label></li>
+                                <li><input id="r94" name="r3" type="radio"><label for="r94">от 100 до 300 человек</label></li>
+                                <li><input id="r95" name="r3" type="radio"><label for="r95">от 300 человек</label></li>
+                                <li><input id="r96" name="r3" type="radio"><label for="r96">больше 1000 человек</label></li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+                <div class="row point_5">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 introduce_2">
+                        <h5>Видео на сайте</h5>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form class="ac-custom ac-radio ac-fill" autocomplete="off">
+                                <ul class="site_type">
+                                    <li><input id="r97" name="r3" type="radio"><label for="r97">Встроенный видеоплеер на сайте, загрузка <span>роликов в формате FLV</span></label></li>
+                                    <li><input id="r99" name="r3" type="radio"><label for="r99">Не нужно</label></li>
+                                    <li><input id="r98" name="r3" type="radio"><label for="r98"><Возможно></Возможно>сть добавлять код уже размещенного на <span>другом сервисе видеоролика (например, YOUTUBE.COM)</span></label></li>
+                                    <li class="hidden-cmp"><input name="r3" type="radio"><label for="">Возможность добавлять код уже размещенного на другом сервисе видеоролика (например, YOUTUBE.COM)</label></li>
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="online_store">
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <div class="step_2">
+                    <h4>Шаг 5. <span>Дополнительные услуги</span></h4>
+                </div>
+            </div>
+            <div class="row point_5">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 introduce_2">
+                    <h5>Создание бренд-бука вашей компании</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form class="ac-custom ac-radio ac-fill" autocomplete="off">
+                            <ul class="site_type">
+                                <li><input id="r100" name="r100" type="radio"><label for="r100">Да</label></li>
+                                <li><input id="r101" name="r100" type="radio"><label for="r101">Нет</label></li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row point_5">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 introduce_2">
+                    <h5>Логотип</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form class="ac-custom ac-radio ac-fill" autocomplete="off">
+                            <ul class="site_type">
+                                <li><input id="r102" name="r102" type="radio"><label for="r102">Редизайн существующего</label></li>
+                                <li><input id="r103" name="r102" type="radio"><label for="r103">Создается Домонапом</label></li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row point_5">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 introduce_2">
+                    <h5>Наполнение сайта:</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form class="ac-custom ac-radio ac-fill" autocomplete="off">
+                            <ul class="site_type">
+                                <li><input id="r104" name="r104" type="radio"><label for="r104">Сайт наполнят ваши специалисты</label></li>
+                                <li><input id="r105" name="r104" type="radio"><label for="r105">Сайт наполнят специалисты ДОМОНАП</label></li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row point_5">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 introduce_2">
+                    <h5>Профессиональный копирайтинг /рерайтинг текстов</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form class="ac-custom ac-radio ac-fill" autocomplete="off">
+                            <ul class="site_type">
+                                <li><input id="r106" name="r104" type="radio"><label for="r106">Да</label></li>
+                                <li><input id="r107" name="r104" type="radio"><label for="r107">Нет</label></li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row point_5">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 introduce_2">
+                    <h5>Задачи поисковой оптимизации:</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form class="ac-custom ac-radio ac-fill" autocomplete="off">
+                            <ul class="site_type">
+                                <li><input id="r108" name="r104" type="radio"><label for="r108">Разработка сайта с учетом базовых принципов поисковой оптимизации</label></li>
+                                <li><input id="r109" name="r104" type="radio"><label for="r109">Продвинутая поисковая оптимизация сайта</label></li>
+                                <li><input id="r110" name="r104" type="radio"><label for="r110">Вывод сайта в топ поисковых систем по вашим критериям</label></li>
+                                <li><input id="r111" name="r104" type="radio"><label for="r111">SEO "под ключ" от ДОМОНАП</label></li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row point_8">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 introduce_2">
+                    <h5>Формы и модули сайта</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 task">
+                        <form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
+                            <ul class="site_type">
+                                <li><input id="cb46" name="cb6" type="checkbox" ><label for="cb46">Кнопка “Заказать звонок”</label></li>
+                                <li><input id="cb47" name="cb18" type="checkbox"><label class="cb47" for="cb47">Приложения социальных сетей</label></li>
+                                <li><input id="cb48" name="cb19" type="checkbox"><label for="cb48">Форма ззаказа</label></li>
+                                <li><input id="cb49" name="cb19" type="checkbox"><label for="cb49">Блок “Акция” (+ счетчик обратного отсчета)</label></li>
+                                <li><input id="cb50" name="cb19" type="checkbox"><label for="cb50">Форма обратной связи</label></li>
+                                <li><input id="cb51" name="cb19" type="checkbox"><label for="cb51">Заполняемые формы</label></li>
+                                <li><input id="cb52" name="cb19" type="checkbox"><label for="cb52">Форум</label></li>
+                                <li><input id="cb53" name="cb19" type="checkbox"><label for="cb53">Галерея</label></li>
+                                <li><input id="cb54" name="cb19" type="checkbox"><label for="cb54">Интернет-чат</label></li>
+                                <li><input id="cb55" name="cb6" type="checkbox" ><label for="cb55">Галлерея / видео галлерея</label></li>
+                                <li><input id="cb56" name="cb18" type="checkbox"><label for="cb56">Поиск по сайту</label></li>
+                                <li><input id="cb57" name="cb19" type="checkbox"><label for="cb57">Блог</label></li>
+                                <li><input id="cb58" name="cb19" type="checkbox"><label for="cb58">"Подписка</label></li>
+                                <li><input id="cb59" name="cb19" type="checkbox"><label for="cb59">Каталог</label></li>
+                                <li><input id="cb60" name="cb19" type="checkbox"><label for="cb60">Отзывы</label></li>
+                                <li><input id="cb61" name="cb19" type="checkbox"><label for="cb61">Портфолио</label></li>
+                                <li><input id="cb62" name="cb19" type="checkbox"><label for="cb62">Новости</label></li>
+                                <li class="hidden-cmp"><input  name="cb19" type="checkbox"><label >Опросы</label></li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row point_8">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 introduce_2">
+                    <h5>Маркетинговые услуги</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 task">
+                        <form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
+                            <ul class="site_type">
+                                <li><input id="cb63" name="cb6" type="checkbox" ><label for="cb63">Установка/настройка Google.Analytics, Yandex.Metrica и Liveinternet.</label></li>
+                                <li><input id="cb64" name="cb18" type="checkbox"><label for="cb64">Настройка контекстной рекламы (Yandex.Direct / Google Adwords)</label></li>
+                                <li><input id="cb65" name="cb19" type="checkbox"><label for="cb65">E-mail рассылки</label></li>
+                                <li><input id="cb66" name="cb19" type="checkbox"><label for="cb66">Sms рассылки</label></li>
+                                <li><input id="cb67" name="cb19" type="checkbox"><label for="cb67">Продвижение в социальных сетях</label></li>
+                                <li><input id="cb68" name="cb19" type="checkbox"><label for="cb68">Комплексное продвижение в интернете от ДОМОНАП</label></li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row point_8">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 introduce_2">
+                    <h5>Долгосрочная поддержка сайта</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 task">
+                        <form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
+                            <ul class="site_type">
+                                <li><input id="cb69" name="cb6" type="checkbox" ><label for="cb69">Техническая поддержка сайта</label></li>
+                                <li><input id="cb70" name="cb18" type="checkbox"><label for="cb70">Защита сайта от  вирусов и других угроз</label></li>
+                                <li><input id="cb71" name="cb19" type="checkbox"><label for="cb71">Размещение публиаций, наполнение сайта</label></li>
+                                <li><input id="cb72" name="cb19" type="checkbox"><label for="cb72">Добавление и редактирование разделов сайта</label></li>
+                                <li><input id="cb73" name="cb19" type="checkbox"><label for="cb73">Разработка новых страниц, включая макет и контент</label></li>
+                                <li><input id="cb74" name="cb19" type="checkbox"><label for="cb74">Консультации по всем вопросам 24/7</label></li>
+                                <li><input id="cb75" name="cb19" type="checkbox"><label for="cb75">Хочу доверить все работы и обслуживание сайта ДОМОНАП</label></li>
+                                <li class="hidden-cmp"><input name="cb19" type="checkbox"><label for="cb75">Хочу доверить все работы и обслуживание сайта ДОМОНАП</label></li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row point_5">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 introduce_2">
+                    <h5>Задачи поисковой оптимизации:</h5>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form class="ac-custom ac-radio ac-fill" autocomplete="off">
+                            <ul class="site_type">
+                                <li><input id="r112" name="r104" type="radio"><label for="r112">Да</label></li>
+                                <li><input id="r113" name="r104" type="radio"><label for="r113">Нет</label></li>
+                            </ul>
+                        </form>
                     </div>
                 </div>
             </div>
