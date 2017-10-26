@@ -44,7 +44,7 @@
 	font-weight: 400;
 	padding: 0 0 10px 45px;
 	vertical-align: top;
-	color: rgba(0,0,0,0.2);
+	color: rgba(0,0,0,0.6);
 	cursor: pointer;
 	-webkit-transition: color 0.3s;
 	transition: color 0.3s;
@@ -85,6 +85,7 @@
 .ac-custom input[type="checkbox"]:checked + label,
 .ac-custom input[type="radio"]:checked + label {
 	color: #3c434d;
+	font-weight: 500;
 } 
 
 .ac-custom input[type="checkbox"]:checked + label::before,

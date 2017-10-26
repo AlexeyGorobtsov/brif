@@ -23,7 +23,7 @@
             <div class="container">
                 <img class="logo" src="img/Logo.png" alt="">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">8(495) 981-43-16</a></li>
+                    <li><a class="phone" href="#">8(495) 981-43-16</a></li>
                     <li><a href="#" class="btn-red">Заказать звонок</a></li>
                 </ul>
             </div>
@@ -99,6 +99,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
                 <div class="row point_3">
                     <div class="col-md-2"></div>
                     <div class="col-md-8 introduce_2">
@@ -232,27 +233,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="row point_7 auditory">
+                <div class="row point_7 ">
                     <div class="col-md-2"></div>
                     <div class="col-md-8 introduce_2">
                         <h5>Целевая аудитория (обобщенно):</h5>
                     </div>
-                    <div class="row">
+                    <div class="row auditory">
 
                         <div class="col-md-6 col-md-push-6 target_2">
                             <form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
                                 <ul class="">
-                                    <li><input id="cb6" name="cb6" type="checkbox"><label for="cb6">Индивидуальные потребители</label><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Самый большой вид целевой аудитории. Это практически все население страны. Они покупают товары и услуги для себя , членов их семей, для дома, сада, для детей, любимых питомцев, друзей и т.п."></button></li>
-                                    <li><input id="cb9" name="cb9" type="checkbox"><label for="cb9">Специалисты и профессионалы <span>в определенных сферах деятельности</span></label><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Это  врачи, учителя, бухгалтера, юристы, аудиторы, нотариусы, преподаватели вузов, дизайнеры, фрилансеры, водители, рабочие разных специальностей и т.п."></button></li>
+                                    <li><input id="cb6" name="cb6" type="checkbox"><label for="cb6">Индивидуальные потребители</label><button type="button" class="btn btn-default hidden-xs" data-toggle="tooltip" data-placement="right" title="Самый большой вид целевой аудитории. Это практически все население страны. Они покупают товары и услуги для себя , членов их семей, для дома, сада, для детей, любимых питомцев, друзей и т.п."></button><button type="button" class="btn btn-default visible-xs" data-toggle="tooltip" data-placement="left" title="Самый большой вид целевой аудитории. Это практически все население страны. Они покупают товары и услуги для себя , членов их семей, для дома, сада, для детей, любимых питомцев, друзей и т.п."></button></li>
+                                    <li><input id="cb9" name="cb9" type="checkbox"><label for="cb9">Специалисты и профессионалы <span>в определенных сферах деятельности</span></label><button type="button" class="btn btn-default hidden-xs specialists" data-toggle="tooltip" data-placement="right" title="Это  врачи, учителя, бухгалтера, юристы, аудиторы, нотариусы, преподаватели вузов, дизайнеры, фрилансеры, водители, рабочие разных специальностей и т.п."></button><button type="button" class="btn btn-default visible-xs specialists" data-toggle="tooltip" data-placement="left" title="Это  врачи, учителя, бухгалтера, юристы, аудиторы, нотариусы, преподаватели вузов, дизайнеры, фрилансеры, водители, рабочие разных специальностей и т.п."></button></li>
                                 </ul>
                             </form>
                         </div>
                         <div class="col-md-6 col-md-pull-6 target">
                             <form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
                                 <ul class="">
-                                    <li><input id="cb8" name="cb8" type="checkbox"><label  for="cb8">Торговые организации</label><button type="button" class="btn btn-default commercial" data-toggle="tooltip" data-placement="right" title="Организации и индивидуальные предприниматели, занимающиеся торговлей."></button></li>
-                                    <li><input id="cb7" name="cb7" type="checkbox"><label for="cb7">Представители делового <span>мира / компании</span></label><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Директора коммерческих и некоммерческих организаций, индивидуальные предприниматели, фермеры и т.п."></button></li>
-                                    <li><input id="cb10" name="cb9" type="checkbox" onclick="showMe(this)"><label for="cb10">Рассказать подробнее...</label><button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Расскажите подробно о вашей целевой  аудитории"></button></li>
+                                    <li><input id="cb8" name="cb8" type="checkbox"><label  for="cb8">Торговые организации</label><button type="button" class="btn btn-default hidden-xs commercial" data-toggle="tooltip" data-placement="right" title="Организации и индивидуальные предприниматели, занимающиеся торговлей."></button><button type="button" class="btn btn-default visible-xs commercial" data-toggle="tooltip" data-placement="left" title="Организации и индивидуальные предприниматели, занимающиеся торговлей."></button></li>
+                                    <li><input id="cb7" name="cb7" type="checkbox"><label for="cb7">Представители делового <span>мира / компании</span></label><button type="button" class="btn btn-default hidden-xs" data-toggle="tooltip" data-placement="right" title="Директора коммерческих и некоммерческих организаций, индивидуальные предприниматели, фермеры и т.п."></button><button type="button" class="btn btn-default visible-xs" data-toggle="tooltip" data-placement="left" title="Директора коммерческих и некоммерческих организаций, индивидуальные предприниматели, фермеры и т.п."></button></li>
+                                    <li><input id="cb10" name="cb9" type="checkbox" onclick="showMe(this)"><label for="cb10">Рассказать подробнее...</label></li>
                                 </ul>
                             </form>
                             <div class="input" id="more">
@@ -265,7 +266,6 @@
                 </div>
             </div>
         </div>
-    </div>
 </section>
 <section class="design">
     <div class="container">
@@ -300,21 +300,7 @@
                     <h5>Общая характеристика стиля сайта:</h5>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
-                        <form class="ac-custom ac-radio ac-fill" autocomplete="off">
-                            <ul class=" get-site-type">
-                                <li><input id="r21" name="r2" type="radio"><label for="r21">Строгий корпоративный дизайн</label></li>
-                                <li><input id="r22" name="r2" type="radio"><label for="r22">Яркий,броский дизайн</label></li>
-                                <li><input class="get-site-type-other" id="r25" name="r2" type="radio"><label for="r25">Другое…</label></li>
-                            </ul>
-                        </form>
-                        <div class="input" id="more_2">
-                            <label for="other">Опишите общие характеристики стиля сайта</label>
-                            <input type="text" name="name" id="different">
-                            <span class="spin"></span>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-md-push-6 target_4А">
                         <form class="ac-custom ac-radio ac-fill" autocomplete="off">
                             <ul class="get-site-type">
                                 <li><input id="r23" name="r2" type="radio"><label for="r23">Минималистичный дизайн с уделением особого <span>внимания функциональности</span></label></li>
@@ -322,7 +308,21 @@
                             </ul>
                         </form>
                     </div>
+                <div class="col-md-6 col-md-pull-6 target_3">
+                    <form class="ac-custom ac-radio ac-fill" autocomplete="off">
+                        <ul class=" get-site-type">
+                            <li><input id="r21" name="r2" type="radio"><label for="r21">Строгий корпоративный дизайн</label></li>
+                            <li><input id="r22" name="r2" type="radio"><label for="r22">Яркий,броский дизайн</label></li>
+                            <li><input class="get-site-type-other" id="r25" name="r2" type="radio"><label for="r25">Другое…</label></li>
+                        </ul>
+                    </form>
+                    <div class="input" id="more_2">
+                        <label for="other">Опишите общие характеристики стиля сайта</label>
+                        <input type="text" name="name" id="different">
+                        <span class="spin"></span>
+                    </div>
                 </div>
+            </div>
             </div>
             <div class="row point_5">
                 <div class="col-md-2"></div>
@@ -336,7 +336,7 @@
                                 <li><input id="r26" name="r3" type="radio"><label for="r26">У Вас есть четкое видение дизайна</label></li>
                                 <li><input id="r27" name="r3" type="radio"><label for="r27">У Вас нет четкого видения дизайна</label></li>
                                 <li><input id="r28" name="r3" type="radio"><label for="r28">Уже есть готовый макет</label></li>
-                                <li><input id="r29"name="r3" type="radio"><label for="r29">Domonap разрабатывает дизайн</label></li>
+                                <li><input id="r29" name="r3" type="radio"><label for="r29">Domonap разрабатывает дизайн</label></li>
                             </ul>
                         </form>
                     </div>
@@ -384,17 +384,23 @@
                     <h5>На какой информации должен акцентировать дизайн внимание посетителя сайта?</h5>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 task">
+                    <div class="col-md-6">
                         <form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
-                            <ul class="site_type">
+                            <ul>
+                                <li class=""><input id="cb21" name="cb12" type="checkbox"><label  for="cb21">На новинках продукции и услуг компании</label></li>
+                                <li class=""><input id="cb22" name="cb14" type="checkbox"><label for="cb22">На уникальности услуг и продукции компании</label></li>
+                                <li class=""><input id="cb23" name="cb12" type="checkbox"><label  for="cb23">На выгодной ценовой политике</label></li>
+                                <li><input id="cb20" name="cb20" type="checkbox"><label for="cb20">На координатах местоположения офиса компании</label></li>
+                            </ul>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
+                            <ul>
                                 <li class="cb11"><input id="cb17" name="cb6" type="checkbox" ><label for="cb17">На слогане, лозунге компании</label></li>
                                 <li><input id="cb18" name="cb18" type="checkbox"><label class="cb12" for="cb18">На информации о компании</label></li>
                                 <li><input id="cb19" name="cb19" type="checkbox"><label for="cb19">На услугах компании</label></li>
                                 <li class=""><input id="cb24" name="cb14" type="checkbox" onclick="showMe_2(this)"><label for="cb24">Свой вариант…</label></li>
-                                <li class=""><input id="cb21" name="cb12" type="checkbox"><label  for="cb21">На новинках продукции и услуг компании</label></li>
-                                <li class=""><input id="cb22" name="cb14" type="checkbox"><label for="cb22">На уникальности услуг и продукции компании</label></li>
-                                <li class=""><input id="cb23" name="cb12" type="checkbox"><label  for="cb23">На выгодной ценовой политике</label></li>
-                                <li><input id="cb20" name="cb20" type="checkbox"><label for="cb20">На координатах местоположения офиса компании</span></label></li>
                             </ul>
                         </form>
                         <div class="input" id="more_3">
@@ -402,7 +408,7 @@
                             <input type="text" name="name" id="more_info_3">
                             <span class="spin"></span>
                         </div>
-                    </div>
+                </div>
                 </div>
             </div>
             <div class="row point_6">
@@ -523,7 +529,7 @@
                                 <li><input id="r43" name="r3" type="radio"><label for="r43">от 1 до 10</label></li>
                                 <li><input id="r44" name="r3" type="radio"><label for="r44">от 10 до 20</label></li>
                                 <li><input id="r45" name="r3" type="radio"><label for="r45">от 20 до 50</label></li>
-                                <li><input id="r46"name="r3" type="radio"><label for="r46">Более 50</label></li>
+                                <li><input id="r46" name="r3" type="radio"><label for="r46">Более 50</label></li>
                             </ul>
                         </form>
                     </div>
@@ -541,7 +547,7 @@
                                 <li><input id="r47" name="r3" type="radio"><label for="r47">от 1 до 50</label></li>
                                 <li><input id="r48" name="r3" type="radio"><label for="r48">от 50 до 100</label></li>
                                 <li><input id="r49" name="r3" type="radio"><label for="r49">от 100 до 500</label></li>
-                                <li><input id="r50"name="r3" type="radio"><label for="r50">Более 500 товаров</label></li>
+                                <li><input id="r50" name="r3" type="radio"><label for="r50">Более 500 товаров</label></li>
                             </ul>
                         </form>
                     </div>
@@ -633,21 +639,7 @@
                     <h5>Способы оплаты товаров/услуг:</h5>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 task">
-                        <form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
-                            <ul>
-                                <li><input id="cb32" name="cb6" type="checkbox" ><label for="cb32">Безналичный расчёт - выписка счёта юр. лицу он-лайн</label></li>
-                                <li><input id="cb33" name="cb18" type="checkbox"><label class="cb33" for="cb33">Наличный расчёт — оплата курьеру при получении товара</label></li>
-                                <li><input id="cb36" name="cb19" type="checkbox" onclick="showMe_3(this)"><label for="cb36">Другое</label></li>
-                            </ul>
-                        </form>
-                        <div class="input" id="more_5">
-                            <label for="more_info">Опишите Вашу вариант</label>
-                            <input type="text" name="name" id="more_info_5">
-                            <span class="spin"></span>
-                        </div>
-                    </div>
-                    <div class="col-md-6 target_2">
+                    <div class="col-md-6 col-md-push-6 target_5">
                         <form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
                             <ul>
                                 <li><input id="cb34" name="cb19" type="checkbox"><label for="cb34">Предоплата кредитными картами</label></li>
@@ -655,7 +647,26 @@
                             </ul>
                         </form>
                     </div>
+                    <div class="col-md-6 col-md-pull-6">
+                        <form class="ac-custom ac-checkbox ac-checkmark" autocomplete="off">
+                            <ul>
+                                <li><input id="cb32" name="cb6" type="checkbox" ><label for="cb32">Безналичный расчёт - выписка счёта юр. лицу он-лайн</label></li>
+                                <li><input id="cb33" name="cb18" type="checkbox"><label class="cb33" for="cb33">Наличный расчёт — оплата курьеру при получении товара</label></li>
+                                <li><input id="cb36" name="cb19" type="checkbox" onclick="showMe_3(this)"><label for="cb36">Другое</label></li>
+                            </ul>
+                        </form>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="input" id="more_5">
+                                <label for="more_info">Опишите Вашу вариант</label>
+                                <input type="text" name="name" id="more_info_5">
+                                <span class="spin"></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
                 <div class="row point_5">
                     <div class="col-md-2"></div>
                     <div class="col-md-8 introduce_2">
@@ -683,9 +694,9 @@
                         <div class="col-md-12">
                             <form class="ac-custom ac-radio ac-fill" autocomplete="off">
                                 <ul class="site_type get-site-type_3">
-                                    <li><input id="r65" name="r5" type="radio"><label for="r65">заказы поступают на E-mail менеджера, и вся дальнейшая обработка заказов ведётся в офф-лайне</label></li>
+                                    <li><input id="r65" name="r5" type="radio"><label for="r65">Заказы поступают на E-mail менеджера, и вся дальнейшая обработка заказов ведётся в офф-лайне</label></li>
+                                    <li><input id="r67" name="r5" type="radio"><label for="r67">На E-mail менеджера поступает уведомление, а обработка заказов ведётся на сайте</label></li>
                                     <li><input class="get-site-type_three" id="r66" name="r5" type="radio" ><label for="r66">Хотим реализовать по другому….</label></li>
-                                    <li><input id="r67" name="r5" type="radio"><label for="r67">на E-mail менеджера поступает уведомление, а обработка заказов ведётся на сайте</label></li>
                                     <li class="hidden-cmp"><input  name="r5" type="radio"><label for="">Свой вариант...</label></li>
                                 </ul>
                             </form>
@@ -707,8 +718,8 @@
                             <form class="ac-custom ac-radio ac-fill" autocomplete="off">
                                 <ul class="site_type get-site-type_4">
                                     <li><input id="r68" name="r5" type="radio"><label for="r68">Учет будет вестись онлайн непосредственно через админку интернет-магазин</label></li>
-                                    <li><input class="get-site-type_four" id="r69" name="r5" type="radio" ><label for="r69">Указать свой вариант…</label></li>
                                     <li><input id="r70" name="r5" type="radio"><label for="r70">Учет товара будет вестись в электронной системе управления складом, в которой предусмотрена синхронизация с интернет-магазином. (1С, ТоргСофт, Мой Склад, другая WMS-система).</label></li>
+                                    <li><input class="get-site-type_four" id="r69" name="r5" type="radio" ><label for="r69">Указать свой вариант…</label></li>
                                     <li class="hidden-cmp"><input  name="r5" type="radio"><label for="">Свой вариант...</label></li>
                                 </ul>
                             </form>
@@ -732,7 +743,7 @@
                                     <li><input id="r71" name="r3" type="radio"><label for="r71">от 50 до 100 человек</label></li>
                                     <li><input id="r72" name="r3" type="radio"><label for="r72">от 100 до 300 человек</label></li>
                                     <li><input id="r73" name="r3" type="radio"><label for="r73">от 300 человек</label></li>
-                                    <li><input id="r74"name="r3" type="radio"><label for="r74">больше 1000 человек</label></li>
+                                    <li><input id="r74" name="r3" type="radio"><label for="r74">больше 1000 человек</label></li>
                                 </ul>
                             </form>
                         </div>
@@ -740,7 +751,6 @@
                 </div>
             </div>
         </div>
-    </div>
 </section>
 
 <section class="online_store">
@@ -785,7 +795,7 @@
                                 <li><input id="r83" name="r5" type="radio"><label for="r83">MODX</label></li>
                                 <li><input id="r84" name="r5" type="radio"><label for="r84">Нужна помощь с выбором</label></li>
                                 <li><input id="r85" name="r5" type="radio"><label for="r85">WordPress</label></li>
-                                <li class="hidden-cmp" <input name="r5" type="radio"><label for="r85">WordPress</label></li>
+                                <li class="hidden-cmp"> <input name="r5" type="radio"><label for="r85">WordPress</label></li>
                             </ul>
                         </form>
                         <div class="input" id="more_8">
@@ -873,6 +883,7 @@
                         </form>
                     </div>
                 </div>
+            </div>
                 <div class="row point_5">
                     <div class="col-md-2"></div>
                     <div class="col-md-8 introduce_2">
@@ -884,7 +895,7 @@
                                 <ul class="site_type">
                                     <li><input id="r97" name="r3" type="radio"><label for="r97">Встроенный видеоплеер на сайте, загрузка <span>роликов в формате FLV</span></label></li>
                                     <li><input id="r99" name="r3" type="radio"><label for="r99">Не нужно</label></li>
-                                    <li><input id="r98" name="r3" type="radio"><label for="r98"><Возможно></Возможно>сть добавлять код уже размещенного на <span>другом сервисе видеоролика (например, YOUTUBE.COM)</span></label></li>
+                                    <li><input id="r98" name="r3" type="radio"><label for="r98">Возможность добавлять код уже размещенного на <span>другом сервисе видеоролика (например, YOUTUBE.COM)</span></label></li>
                                     <li class="hidden-cmp"><input name="r3" type="radio"><label for="">Возможность добавлять код уже размещенного на другом сервисе видеоролика (например, YOUTUBE.COM)</label></li>
                                 </ul>
                             </form>
@@ -893,7 +904,6 @@
                 </div>
             </div>
         </div>
-    </div>
 </section>
 
 <section class="online_store">
@@ -980,7 +990,7 @@
                                 <li><input id="r108" name="r104" type="radio"><label for="r108">Разработка сайта с учетом базовых принципов поисковой оптимизации</label></li>
                                 <li><input id="r109" name="r104" type="radio"><label for="r109">Продвинутая поисковая оптимизация сайта</label></li>
                                 <li><input id="r110" name="r104" type="radio"><label for="r110">Вывод сайта в топ поисковых систем по вашим критериям</label></li>
-                                <li><input id="r111" name="r104" type="radio"><label for="r111">SEO "под ключ" от ДОМОНАП</label></li>
+                                <li><input id="r111" name="r104" type="radio"><label for="r111">SEO "под ключ" от Domonap</label></li>
                             </ul>
                         </form>
                     </div>
@@ -1083,10 +1093,10 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-9 col-xs-8">
                 <div class="copy">© Web-студия Domonap, 2017.</div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-xs-4">
                 <div class="footer_soc">
 
                     <a href="https://www.facebook.com/ООО-Домонап-1641789025884617/" target="_blank" class="soc facebook"></a>&nbsp;&nbsp;&nbsp;&nbsp;

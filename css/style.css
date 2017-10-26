@@ -144,29 +144,19 @@ h3 {
     width: 49%;
 }
 
-.step_1 h4 {
+
+h4 {
     color: #205b98;
     font-size: 30px;
     text-align: center;
     padding-top: 10px;
 }
 
-.step_2 h4 {
-    color: #205b98;
-    font-size: 30px;
-    text-align: center;
-    padding-top: 10px;
-}
-
-.step_1 h4 span {
+h4 span {
     color: #333333;
     display: block;
 }
 
-.step_2 h4 span {
-    color: #333333;
-    display: block;
-}
 
 .switchers .btn-red {
     background-color: #fbd302;
@@ -179,28 +169,21 @@ h3 {
 }
 
 .point_1 {
-    border: 1px solid #e4ebf2;
+    border: 1px solid #d1dfec;
     /*height: 232px;*/
     margin: 35px 0 0 0;
-}
-
-.point_1 h5 {
-    color: #3c434d;
-    font-weight: 500;
-    font-size: 24px;
-    text-align: center;
-    padding: 5px 0 5px 0;
+    padding: 0 0 20px 0;
 }
 
 .introduce, .introduce_2 {
-    border-bottom: 1px solid #e4ebf2;
-    background: #f3f8fd;
+    border-bottom: 1px solid #d1dfec;
+    background: #edf6ff;
     margin-bottom: 20px;
     width: 100%;
 }
 
 .point_2 {
-    border: 1px solid #e4ebf2;
+    border: 1px solid #d1dfec;
     height: auto;
     margin: 35px 0 0 0;
 }
@@ -210,23 +193,23 @@ h5 {
     font-weight: 500;
     font-size: 24px;
     text-align: center;
-    padding: 5px 0 5px 0;
+    padding: 5px;
 }
 
 .point_3 {
-    height: 171px;
-    border: 1px solid #e4ebf2;
+    height: auto;
+    border: 1px solid #d1dfec;
     margin: 53px 0 0 0;
 }
 
 .point_4 {
-    border: 1px solid #e4ebf2;
+    border: 1px solid #d1dfec;
     height: 153px;
-    margin: 39px 0 0 0;
+    margin: 35px 0 0 0;
 }
 
 .ac-custom.ac-radio.ac-fill ul {
-    padding: 25px 0 0 0;
+    padding: 10px 0 0 0;
     width: 100%;
 }
 
@@ -307,7 +290,7 @@ input::-ms-clear {
 .input input,
 .input label,
 .button button {
-    color: #b7bdc2;
+    color: #333333;
     font-size: 16px;
     font-weight: 300;
 }
@@ -399,14 +382,12 @@ input::-webkit-calendar-picker-indicator {
 }
 
 .point_5 {
-    border: 1px solid #e4ebf2;
-    /*height: 214px;*/
+    border: 1px solid #d1dfec;
     margin: 35px 0 0 0;
-
 }
 
 .point_6 {
-    border: 1px solid #e4ebf2;
+    border: 1px solid #d1dfec;
     /*height: 153px;*/
     margin: 39px 0 0 0;
 }
@@ -423,26 +404,15 @@ ul li span {
     display: block;
 }
 
-.target_2 {
-    /*margin-left: -20px;*/
-}
 
 .target .ac-custom li {
     margin: 0;
 }
 
-.target_2 .ac-custom{
-    margin-left: -20px;
-}
-
-/*.target .ac-custom .cb8 {
-    margin: 10px 0 12px;
-}*/
-
 .point_7,
 .point_8 {
 
-    border: 1px solid #e4ebf2;
+    border: 1px solid #d1dfec;
     margin: 35px 0 0 0;
 }
 
@@ -468,7 +438,7 @@ ul li span {
 .point_7 .tooltip-inner {
     background-color: #f7fafc;
     border-radius: 4px;
-    border: 1px solid #e4ebf2;
+    border: 1px solid #d1dfec;
     color: #3c434d;
     max-width: 210px;
     padding: 4px 8px;
@@ -484,6 +454,8 @@ ul li span {
     margin-top: 8px;
 }
 
+
+
 #more,
 #more_2,
 #more_3,
@@ -493,15 +465,15 @@ ul li span {
 #more_7,
 #more_8 {
     margin: -20px 0 15px 25px;
-    min-width: 96%;
+    min-width: 91%;
     display: none;
 }
 
 footer {
-    margin-bottom: 40px;
     height: 88px;
     padding-top: 20px;
-    background: #f3f8fd;
+    background: #edf6ff;
+    margin-top: 40px;
 }
 
 footer .footer_soc {
@@ -544,10 +516,10 @@ footer .footer_soc {
 
 /*============================design=============================================*/
 
-.point_5 h5 {
+ /*h5 {
     font-size: 24px;
     text-align: center;
-}
+}*/
 
 /*================================================================================================*/
 
@@ -563,23 +535,28 @@ footer .footer_soc {
     .menu-top .navbar {
         padding: 5px 0;
     }
+
     .logo {
         padding-top: 2%;
         height: auto;
         max-width: 15%;
     }
+
     .menu-top .navbar-default .navbar-nav > li > a {
         font-size: 14px;
         padding: 17px 0 0 0;
     }
+
     .menu-top .navbar-default .navbar-nav > li > a.btn-red {
         font-size: 14px;
         padding: 10px 14px;
         margin: 6px 17px 7px 5px;
     }
+
     .logo {
-         padding-bottom: 0;
+        padding-bottom: 0;
     }
+
     .bg_visual h1 {
 
         font-size: 56px;
@@ -595,14 +572,17 @@ footer .footer_soc {
         min-height: 580px;
 
     }
+
     .switchers .btn-red {
         font-size: 16px;
-        margin: -1% 4% 0 0;
+        margin: -2% 6% 0 0;
         padding: 0 34px 0 35px;
+
     }
 
     .switchers {
         line-height: 52px;
+
     }
 
     .indicators {
@@ -613,7 +593,9 @@ footer .footer_soc {
     .hr {
         margin-left: 4%;
         width: 71%;
+        padding-bottom: 44px;
     }
+
     .step_1 h4 {
         font-size: 24px;
 
@@ -624,17 +606,19 @@ footer .footer_soc {
         height: 70px;
     }
 
-    .point_1 h5 {
+    h5 {
         font-size: 18px;
 
     }
 
     .input, .input label, .input input, .input .spin, .button, .button button {
-        width: 97%;
+        width: 94%;
     }
+
     .point_3 {
-         height: auto;
-         margin: 0 0 0 0;
+        height: auto;
+        margin: 35px 0 0 0;
+        padding: 0 0 20px 0;
     }
 
     .point_4 {
@@ -651,37 +635,237 @@ footer .footer_soc {
         list-style-type: decimal;
         width: 100%;
     }
+
     .target {
         margin-left: -20px;
     }
-    .auditory{
+
+    .target_4 {
+        margin-left: -20px;
+    }
+
+    .auditory {
         padding: 0 0 0 20px;
     }
 
+
     .ac-custom.ac-radio.ac-fill ul {
-         padding: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    .introduce, .introduce_2 {
+        padding: 1px 0 0 0;
+    }
+
+    .hidden-cmp {
+        display: none;
+    }
+
+    .point_2 .target {
+        /*margin-left: -5px;*/
+    }
+
+    .ac-custom.ac-radio.ac-fill ul {
+        padding: 0 0 0 0;
+    }
+
+    ol, ul {
+        margin-top: 0;
+        margin-bottom: 0;
 
     }
+
+    .target_2 .ac-custom {
+        margin-left: -20px;
+    }
+
+    .target_4 {
+        margin-left: 0;
+    }
+
+    .brif .input {
+        width:90%;
+    }
+    .nav>li {
+        display: inline-block;
+    }
+
+    #more, #more_2, #more_3, #more_4, #more_5, #more_6, #more_7, #more_8 {
+        min-width: 92%;
+
+    }
+
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
 
+    .hr {
+        padding-bottom: 44px;
+    }
+    h5 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    .arrow-down {
+        float: right;
+        right: 36px;
+        top: 35px;
+    }
+    .point_3 .introduce_2 .input {
+
+    }
+    .navbar-right {
+        float: right!important;
+        margin-right: -15px;
+    }
 }
 
 @media only screen and (max-width: 767px) {
-    .menu-top .navbar-default .navbar-nav > li > a:hover {
+    /*.menu-top .navbar-default .navbar-nav > li > a:hover {
         background: #eee;
     }
 
     .menu-top .container,
     .menu-top .navbar-collapse {
         padding-left: 15px;
-    }
+    }*/
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
+
+    .point_7 .btn.specialists {
+
+        margin: 0 15px 0 0;
+    }
+
+    .nav > li > a {
+        display: inline-block;
+    }
+
+    .nav > li .phone {
+        display: none;
+    }
+
+    .logo {
+        max-width: 31%;
+        padding-top: 0%;
+    }
+
+
+    .navbar-nav {
+         margin: 0;
+    }
+
+    .nav.navbar-nav.navbar-right {
+         padding-top: 0;
+    }
+
+    .bg_visual h1 {
+        font-size: 36px;
+         padding-top: 40px;
+    }
+
+    .bg_visual h3 {
+        font-size: 16px;
+    }
+
+    .indicators {
+        width: 60%;
+    }
+
+    .hr {
+        width: 58%;
+    }
+
+    .switchers .btn-red {
+        margin: -4% 8% 0 0;
+    }
+
+    #work {
+        width: 100%;
+    }
+    .arrow-down {
+
+        right: 14px;
+        top: 44px;
+    }
+    .soc {
+        height: 40px;
+        width: 40px;
+    }
+
+    .menu-top .navbar-default .navbar-nav > li > a.btn-red {
+
+        padding: 15px 15px 15px 15px;
+        margin: 0 31px 0 0;
+    }
+
+    section .ac-custom label {
+        font-size: 14px;
+    }
+
+
+    .point_7 .btn {
+        float: right;
+        margin: 0 15px 0 0;
+    }
+
+    .brif .input {
+        width: 75%;
+    }
+
+    .input, .input label, .input input, .input .spin, .button, .button button {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .menu-top .navbar-default .navbar-nav > li > a.btn-red {
+        padding: 10px 15px 10px 15px;
+        margin: 0 7px 0 0;
+    }
+
+    .bg_visual {
+        min-height: 420px;
+    }
+
+    .bg_visual h3 {
+        font-size: 14px;
+        margin-top: 0;
+    }
+
+    .switchers {
+        height: 70px;
+        margin-top: -78px;
+    }
+
+    .indicators {
+        width: 50%;
+        bottom: 42px;
+    }
+
+    .hr {
+        padding-bottom: 22px;
+        width: 51%;
+        margin-left: 3%;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    .point_7 .btn.specialists {
+        margin: -70px 15px 0 0;
+    }
+
+
+
 
 }
 
