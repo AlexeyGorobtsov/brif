@@ -457,7 +457,7 @@ ul li span {
 
 
 #more,
-#more_2,
+#other-description,
 #more_3,
 #more_4,
 #more_5,
@@ -690,7 +690,7 @@ footer .footer_soc {
         display: inline-block;
     }
 
-    #more, #more_2, #more_3, #more_4, #more_5, #more_6, #more_7, #more_8 {
+    #more, #moreother-description_2, #more_3, #more_4, #more_5, #more_6, #more_7, #more_8 {
         min-width: 92%;
 
     }
@@ -822,6 +822,11 @@ footer .footer_soc {
 
     .input, .input label, .input input, .input .spin, .button, .button button {
         width: 90%;
+    }
+
+    #more, #other-description, #more_3, #more_4, #more_5, #more_6, #more_7, #more_8 {
+        margin: -10px 0 15px 25px;
+
     }
 }
 
