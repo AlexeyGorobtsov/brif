@@ -182,6 +182,7 @@ h3 {
     border: 1px solid #e4ebf2;
     /*height: 232px;*/
     margin: 35px 0 0 0;
+    padding: 0 0 20px 0;
 }
 
 .point_1 h5 {
@@ -214,7 +215,7 @@ h5 {
 }
 
 .point_3 {
-    height: 171px;
+    height: auto;
     border: 1px solid #e4ebf2;
     margin: 53px 0 0 0;
 }
@@ -222,7 +223,7 @@ h5 {
 .point_4 {
     border: 1px solid #e4ebf2;
     height: 153px;
-    margin: 39px 0 0 0;
+    margin: 35px 0 0 0;
 }
 
 .ac-custom.ac-radio.ac-fill ul {
@@ -634,7 +635,8 @@ footer .footer_soc {
     }
     .point_3 {
          height: auto;
-         margin: 0 0 0 0;
+         margin: 35px 0 0 0;
+        padding: 0 0 20px 0;
     }
 
     .point_4 {
@@ -657,7 +659,25 @@ footer .footer_soc {
     .auditory{
         padding: 0 0 0 20px;
     }
+
+    .introduce, .introduce_2 {
+        padding: 1px 0 0 0;
+    }
+    
+    .hidden-cmp {
+        display: none;
+    }
+    .point_2 .target {
+        margin-left: -5px;
+    }
+
+    .ac-custom.ac-radio.ac-fill ul {
+         padding: 0 0 0 0;
 }
+    ol, ul {
+        margin-top: 0;
+         margin-bottom: 0;
+    }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
