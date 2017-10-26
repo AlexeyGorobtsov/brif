@@ -564,23 +564,28 @@ footer .footer_soc {
     .menu-top .navbar {
         padding: 5px 0;
     }
+
     .logo {
         padding-top: 2%;
         height: auto;
         max-width: 15%;
     }
+
     .menu-top .navbar-default .navbar-nav > li > a {
         font-size: 14px;
         padding: 17px 0 0 0;
     }
+
     .menu-top .navbar-default .navbar-nav > li > a.btn-red {
         font-size: 14px;
         padding: 10px 14px;
         margin: 6px 17px 7px 5px;
     }
+
     .logo {
-         padding-bottom: 0;
+        padding-bottom: 0;
     }
+
     .bg_visual h1 {
 
         font-size: 56px;
@@ -596,6 +601,7 @@ footer .footer_soc {
         min-height: 580px;
 
     }
+
     .switchers .btn-red {
         font-size: 16px;
         margin: -1% 4% 0 0;
@@ -615,6 +621,7 @@ footer .footer_soc {
         margin-left: 4%;
         width: 71%;
     }
+
     .step_1 h4 {
         font-size: 24px;
 
@@ -633,9 +640,10 @@ footer .footer_soc {
     .input, .input label, .input input, .input .spin, .button, .button button {
         width: 97%;
     }
+
     .point_3 {
-         height: auto;
-         margin: 35px 0 0 0;
+        height: auto;
+        margin: 35px 0 0 0;
         padding: 0 0 20px 0;
     }
 
@@ -653,31 +661,36 @@ footer .footer_soc {
         list-style-type: decimal;
         width: 100%;
     }
+
     .target {
         margin-left: -20px;
     }
-    .auditory{
+
+    .auditory {
         padding: 0 0 0 20px;
     }
 
     .introduce, .introduce_2 {
         padding: 1px 0 0 0;
     }
-    
+
     .hidden-cmp {
         display: none;
     }
+
     .point_2 .target {
         margin-left: -5px;
     }
 
     .ac-custom.ac-radio.ac-fill ul {
-         padding: 0 0 0 0;
-}
+        padding: 0 0 0 0;
+    }
+
     ol, ul {
         margin-top: 0;
-         margin-bottom: 0;
+        margin-bottom: 0px;
     }
+}
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
