@@ -657,6 +657,11 @@ footer .footer_soc {
     .auditory{
         padding: 0 0 0 20px;
     }
+
+    .ac-custom.ac-radio.ac-fill ul {
+         padding: 0 0 0 0;
+
+    }
 }
 
 /* Small Devices, Tablets */
