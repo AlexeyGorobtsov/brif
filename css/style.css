@@ -458,15 +458,22 @@ ul li span {
 
 #more,
 #other-description,
-#more_3,
-#more_4,
-#more_5,
-#more_6,
-#more_7,
-#more_8 {
+#other-description-visitors,
+#other-description-difference,
+#other-description-payment,
+#other-description-commodity-accounting,
+#other-description-control-system {
     margin: -20px 0 15px 25px;
     min-width: 91%;
     display: none;
+}
+
+#other-description-accepting-orders {
+    margin: -44px 0 25px 35px;
+    min-width: 91%;
+    display: none;
+
+
 }
 
 footer {
