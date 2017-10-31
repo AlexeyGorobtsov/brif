@@ -32,6 +32,11 @@ h3 {
     background: #ec4835;
 }
 
+.required {
+    color: red;
+    font-weight: bold;
+}
+
 /*=============================header=========================================*/
 .menu-top .navbar {
     background: #fff;
