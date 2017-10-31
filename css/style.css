@@ -112,6 +112,10 @@ h3 {
     justify-content: space-around;
     width: 100%;
 }
+
+.step2, .step3, .step4 {
+    pointer-events: none;
+}
 /*.acquaintance,*/
 .design,
 .online-store,

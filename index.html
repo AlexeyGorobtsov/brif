@@ -50,17 +50,17 @@
             <label for="step1">Шаг 1</label></li>
 
             <li><input type="radio" name="radio1" id="step2" value="radio-2" />
-            <label for="step2">Шаг 2</label></li>
+            <label for="step2" class="step2">Шаг 2</label></li>
 
             <li><input type="radio" name="radio1" id="step3" value="radio-3"/>
-            <label for="step3">Шаг 3</label></li>
+            <label for="step3" class="step3">Шаг 3</label></li>
 
             <li><input type="radio" name="radio1" id="step4" value="radio-4"/>
-            <label for="step4">Шаг 4</label></li>
+            <label for="step4" class="step4">Шаг 4</label></li>
             </ul>
         </div>
     </div>
-    <input href="#"  type="button" class="btn-red" id="next" value="Далее">
+    <input href="#"  type="button" class="btn-red" id="next" value="Next">
 
 </div>
 
@@ -76,7 +76,7 @@
                 <div class="col-md brif">
                     <div class="input">
                         <label for="name_of_the_brief">Задайте название брифа<span class="required">&nbsp;*</span></label>
-                        <input type="text" name="name" id="name_of_the_brief">
+                        <input type="text" name="name_of_the_brief" id="name_of_the_brief">
                         <span class="spin"></span>
                     </div>
                 </div>
@@ -90,26 +90,50 @@
                     <div class="col-md-6">
                         <div class="input">
                             <label for="name_company">Введите название компании<span class="required">&nbsp;*</span></label>
-                            <input type="text" name="name" id="name_company">
+                            <input type="text" name="company" id="name_company">
                             <span class="spin"></span>
                         </div>
                         <div class="input">
                             <label for="surname">Введите ФИО<span class="required">&nbsp;*</span></label>
-                            <input type="text" name="name" id="surname">
+                            <input type="text" name="fullname" id="surname">
                             <span class="spin"></span>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="input">
                             <label for="email">Введите e-mail<span class="required">&nbsp;*</span></label>
-                            <input type="text" name="name" id="email">
+                            <input type="text" name="email" id="email">
                             <span class="spin"></span>
                         </div>
                         <div class="input">
                             <label for="phone">Введите телефон<span class="required">&nbsp;*</span></label>
-                            <input type="text" name="name" id="phone">
+                            <input type="text" name="phone" id="phone">
                             <span class="spin"></span>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row point_2">
+                <div class="col-md-2"></div>
+                <div class="col-md-8 introduce_2">
+                    <h5 id="site_title">Давайте выберем тип Вашего сайта:<span class="required">&nbsp;*</span></h5>
+                </div>
+                <div class="row choose-the-type">
+                    <div class="col-md-12">
+                        <form class="ac-custom ac-radio ac-fill" autocomplete="off">
+                            <ul class="site_type">
+                                <li><input id="r3" name="site_type" type="radio"><label for="r3">Целевая страница
+                                    (landing-page)</label></li>
+                                <li><input id="r4" name="site_type" type="radio"><label for="r4">Корпоративный сайт</label>
+                                </li>
+                                <li><input id="r5" name="site_type" type="radio"><label for="r5">Информационный портал</label>
+                                </li>
+                                <li><input id="r6" name="site_type" type="radio"><label for="r6">Сайт визитная карточка</label>
+                                </li>
+                                <li><input id="r7" name="site_type" type="radio"><label for="r7">Интернет магазин</label></li>
+                                <li><input id="r8" name="site_type" type="radio"><label for="r8">Личный блог</label></li>
+                            </ul>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -123,7 +147,7 @@
                         <div class="input work">
                             <label for="work">Род деятельности:</label>
                             <span class="glyphicon glyphicon-menu-down arrow-down" aria-hidden="true"></span>
-                            <input type="text" name="working" id="work" list="working">
+                            <input type="text" name="work_activities" id="work" list="working">
                             <datalist id="working">
                                 <option value="Аварийные/справочные/экстренные службы"></option>
                                 <option value="Автосервис/Автотовары"></option>
@@ -171,30 +195,6 @@
                                 </li>
                                 <li><input id="r2" name="r1" type="radio"><label for="r2">Изменить или улучшить
                                     существующий</label></li>
-                            </ul>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <div class="row point_2">
-                <div class="col-md-2"></div>
-                <div class="col-md-8 introduce_2">
-                    <h5>Давайте выберем тип Вашего сайта:<span class="required">&nbsp;*</span></h5>
-                </div>
-                <div class="row choose-the-type">
-                    <div class="col-md-12">
-                        <form class="ac-custom ac-radio ac-fill" autocomplete="off">
-                            <ul class="site_type">
-                                <li><input id="r3" name="r2" type="radio"><label for="r3">Целевая страница
-                                    (landing-page)</label></li>
-                                <li><input id="r4" name="r2" type="radio"><label for="r4">Корпоративный сайт</label>
-                                </li>
-                                <li><input id="r5" name="r2" type="radio"><label for="r5">Информационный портал</label>
-                                </li>
-                                <li><input id="r6" name="r2" type="radio"><label for="r6">Сайт визитная карточка</label>
-                                </li>
-                                <li><input id="r7" name="r2" type="radio"><label for="r7">Интернет магазин</label></li>
-                                <li><input id="r8" name="r2" type="radio"><label for="r8">Личный блог</label></li>
                             </ul>
                         </form>
                     </div>

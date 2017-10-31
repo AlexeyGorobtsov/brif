@@ -40,9 +40,7 @@ DROP TABLE IF EXISTS `domonap`.`br_client` ;
 CREATE TABLE IF NOT EXISTS `domonap`.`br_client` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `company` VARCHAR(45) NULL,
-  `firstname` VARCHAR(45) NULL,
-  `lastname` VARCHAR(45) NULL,
-  `middlename` VARCHAR(45) NULL,
+  `fullname` VARCHAR(45) NULL,
   `phone` VARCHAR(45) NULL,
   `email` VARCHAR(45) NULL,
   PRIMARY KEY (`id`),
@@ -282,7 +280,7 @@ CREATE TABLE IF NOT EXISTS `domonap`.`br_payment_methods` (
   `cash` INT NULL,
   `advance` INT NULL,
   `emoney` INT NULL,
-  `other` INT NULL,
+  `other` MEDIUMTEXT NULL,
   PRIMARY KEY (`id`),
   CONSTRAINT `fk_PaymentMethods_InternetShop1`
     FOREIGN KEY (`id`)
@@ -306,7 +304,7 @@ CREATE TABLE IF NOT EXISTS `domonap`.`br_design_focus` (
   `new_products` INT NULL,
   `uniqueness` INT NULL,
   `price` INT NULL,
-  `other` INT NULL,
+  `other` MEDIUMTEXT NULL,
   PRIMARY KEY (`id`),
   CONSTRAINT `fk_DesignFocus_Design1`
     FOREIGN KEY (`id`)
