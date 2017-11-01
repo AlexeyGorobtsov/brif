@@ -1,4 +1,6 @@
 <?php
+
+// TODO: Сделать автозагрузку классов http://php.net/manual/ru/function.spl-autoload-register.php
 require("Db.class.php");
 require_once("brief/BriefManager.php");
 require_once("brief/Brief.php");
@@ -21,8 +23,30 @@ require_once("brief/WebSite.php");
 
 echo 'Started';
 
+$client = array('company' => "SEB", 'fullname' => "Tomas Lindel", 'phone' => "+46726459874", 'email' => "me@domonap.se");
+
+var_dump(__LINE__);
+var_dump($client);
+echo '<br>';
+echo '<br>';
+
+$data = $_POST;
+var_dump(__LINE__);
+var_dump($data);
+echo '<br>';
+echo '<br>';
+
+$client = array_replace_recursive($client, $data);
+
+var_dump(__LINE__);
+var_dump($client);
+echo '<br>';
+echo '<br>';
+exit();
+
 // Creates the instance
 $db = new DB();
+
 
 $briefManager = new BriefManager($db);
 
@@ -30,6 +54,9 @@ $briefManager = new BriefManager($db);
 $brief = array('task' => 1, 'site_type' => 1, 'timeframe' => 1, 'budget' => 1, 'site_support' => 1,
     'work_activities' => "Type of work", 'project_name' => "C");
 $client = array('company' => "SEB", 'fullname' => "Tomas Lindel", 'phone' => "+46726459874", 'email' => "me@domonap.se");
+
+
+
 $audience = array('consumers' => 1, 'representatives' => 1, 'organizations' => 1, 'fields' => 1, 'other' => 1);
 $briefManager->setBriefPage($brief, $client, $audience);
 
